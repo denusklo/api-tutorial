@@ -18,11 +18,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/', function () {
+Route::get('/person', function () {
     return 'this is an API';
 });
 
-Route::get('/person', function () {
+Route::get('/', function () {
     $person = [
         'first_name' => 'Sean',
         'last_name' => 'Pooley',
