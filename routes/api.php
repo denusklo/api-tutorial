@@ -27,5 +27,5 @@ Route::get('/person', function () {
         'first_name' => 'Sean',
         'last_name' => 'Pooley',
     ];
-    return $person;
+    return 'this is an API';
 });
