@@ -23,6 +23,6 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
 
-        "APP_KEY": "base64:PgULGNL0tKE8FuN+eygylOn18sZOPyTc+VOW3Ik6YQ4="
+        
     }
 }
