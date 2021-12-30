@@ -45,7 +45,7 @@ class RouteServiceProvider extends ServiceProvider
             //     ->namespace($this->namespace)
             //     ->group(base_path('routes/api.php'));
 
-            Route::domain('api.work.testz')
+            Route::domain('api.work.test')
                 ->middleware('api')
                 ->namespace($this->namespace)
                 ->group(base_path('routes/api.php'));
