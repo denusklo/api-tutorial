@@ -16,7 +16,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://api-tutorial-phi.vercel.app/",
-        "VERCEL_DEMO_MODE": "true",
+        "VERCEL_DEMO_MODE": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -27,7 +27,6 @@
         "SESSION_DRIVER": "array",
         "VIEW_COMPILED_PATH": "/tmp/views",
         "SSR_TEMP_PATH": "/tmp/ssr",
-        "ENABLE_FILE_SYSTEM_API ": "true",
         "NODE_PATH": "node"
     }
 }
