@@ -31,6 +31,7 @@
         "SESSION_DRIVER": "array",
         "VIEW_COMPILED_PATH": "/tmp/views",
         "SSR_TEMP_PATH": "/tmp/ssr",
+        "ENABLE_FILE_SYSTEM_API ": "1",
         "NODE_PATH": "node"
     }
 }
