@@ -1,7 +1,7 @@
 <?php
-require __DIR__ . '/../public/index.php';
+require __DIR__ . '/../app/Providers/RouteServiceProvider.php';
 $person = [
     'first_name' => 'Sean',
     'last_name' => 'Pooley',
 ];
-echo (json_encode($person));
+echo ($person);
