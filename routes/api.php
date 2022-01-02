@@ -19,7 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/', function () {
-    return 'this is an API';
+    return 'this is an APIs';
 });
 
 Route::get('/person', function () {

@@ -1,1 +1,4 @@
-This is index.php.
+Home page
+@php
+    phpinfo();
+@endphp

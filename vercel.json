@@ -14,7 +14,7 @@
             "dest": "/api/person.php"
         },
         {
-            "src": "/(.*)/",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
