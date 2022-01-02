@@ -8,7 +8,6 @@
             "runtime": "@vercel/static"
           }
       },
-    
     "routes": [
         {
             "src": "/(css|js)/(.*)",
