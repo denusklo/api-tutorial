@@ -10,8 +10,8 @@
             "dest": "public/$1/$2"
         },
         {
-            "src": "/(.*)",
-            "dest": "/api/(.*).php"
+            "src": "/api/person",
+            "dest": "/api/person.php"
         },
         {
             "src": "/(.*)",
