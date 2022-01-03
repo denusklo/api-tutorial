@@ -12,10 +12,6 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-            "src": "/to/google",
-            "dest": "https://www.google.com/"
         }
     ],
     "env": {
