@@ -17,5 +17,9 @@ Route::get('', function () {
     return view('index');
 });
 Route::get('/1', function () {
-    dd('12');
+    $person = [
+        'first_name' => 'Sean',
+        'last_name' => 'Pooley',
+    ];
+    return $person;
 });
