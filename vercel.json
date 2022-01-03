@@ -20,6 +20,10 @@
         {
             "src": "/api/index.php/api/(.*)",
             "dest": "https://www.google.com/"
+        },
+        {
+            "src": "/api/(.*)",
+            "dest": "https://api-tutorial-phi.vercel.app/api/index.php/api/(.*)"
         }
     ],
     "env": {
