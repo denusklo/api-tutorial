@@ -21,7 +21,7 @@
     "env": {
         "APP_NAME": "Vercel Laravel",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://api-tutorial-phi.vercel.app/",
         "VERCEL_DEMO_MODE": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
