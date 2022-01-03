@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FirebaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('', function () {
     return view('index');
 });
+
 Route::get('/1', function () {
     $person = [
         'first_name' => 'Sean',
@@ -23,3 +25,5 @@ Route::get('/1', function () {
     ];
     return $person;
 });
+
+Route::get('/test', 'App\Http\Controllers\FirebaseController@index');
