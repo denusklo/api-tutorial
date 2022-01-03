@@ -11,13 +11,19 @@
         },
         {
             "src": "/api/(.*)",
-            "dest": "/api/index.php/api/(.*)"
+            "dest": "https:// /api/index.php/api/(.*)"
         },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
+    "rewrites": [
+        {
+            "source": "/api/index.php/api/(.*)",
+            "destination": "https://api-tutorial-phi.vercel.app/api/(.*)"
+        }
+      ],
     "env": {
         "APP_NAME": "Vercel Laravel",
         "APP_ENV": "production",

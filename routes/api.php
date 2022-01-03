@@ -26,6 +26,7 @@ Route::get('/person', function () {
     $person = [
         'first_name' => 'Sean',
         'last_name' => 'Pooley',
+        'path' => "Laravel"
     ];
     return $person;
 });
