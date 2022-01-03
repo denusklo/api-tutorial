@@ -19,7 +19,7 @@
         },
         {
             "src": "/api/index.php/api/(.*)",
-            "dest": "https://api-tutorial-phi.vercel.app/api/(.*)"
+            "dest": "https://www.google.com/"
         }
     ],
     "env": {
