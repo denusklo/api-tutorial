@@ -10,10 +10,6 @@
             "dest": "public/$1/$2"
         },
         {
-            "src": "/api/(.*)",
-            "dest": "https:// /api/index.php/api/(.*)"
-        },
-        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         },
