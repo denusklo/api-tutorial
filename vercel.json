@@ -14,7 +14,7 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/api/index.php/api/(.*)",
+            "src": "/google",
             "dest": "https://www.google.com/"
         }
     ],
